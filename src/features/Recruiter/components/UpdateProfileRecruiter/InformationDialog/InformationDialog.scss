@@ -1,0 +1,20 @@
+.Infor-Dialog {
+  width: 80%;
+  &__root {
+    &__child {
+      padding: 2% 0;
+    }
+    &__childTaxCode {
+      input-field:disabled {
+        background: #ccc;
+      }
+    }
+    &__btnUpdate {
+      align-items: center !important;
+      justify-content: center !important;
+    }
+  }
+}
+.tax-code {
+  margin-top: 10px;
+}

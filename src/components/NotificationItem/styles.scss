@@ -1,0 +1,29 @@
+@import "../../assets/scss/global/global";
+.notification-root {
+  padding: 10px;
+  border-bottom: 0.5px solid lightgray;
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  align-items: center;
+  p {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+}
+.notification-wrapper {
+  &__date {
+    color: #404040;
+    margin-top: 5px;
+  }
+}
+.notification-root:hover {
+  background-color: #a3eabb;
+  cursor: pointer;
+}
+.not-read {
+  background-color: #b9bdb9;
+}
+.notifcation-link {
+  color: black;
+}

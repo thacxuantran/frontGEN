@@ -1,0 +1,16 @@
+version: "3.0"
+
+services:
+  app:
+    image: genhiringfrontend
+    ports:
+      - "80:80"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    volumes:
+      - "./genfrontend:/app"
+      - "/app/node_modules"

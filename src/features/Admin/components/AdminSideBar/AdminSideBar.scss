@@ -1,0 +1,59 @@
+@import "../../../../assets/scss/global/global";
+.admin-sidebar-root {
+  //width: 20%;
+
+  display: flex;
+  flex-direction: column;
+  // box-shadow: -1px 0px 44px 0px #00000026;
+  // height: 100vh;
+  &__logo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10% 0;
+  }
+  &__btn-group {
+    display: flex;
+    flex-direction: column;
+    &__dashboard {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 10px;
+      & > Button {
+        box-shadow: 0px 2px 20px 0px #0000001a;
+        color: $black-color;
+        font-weight: bold;
+        background-color: white;
+        text-transform: none;
+        width: 88%;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        &:hover {
+          color: white;
+        }
+      }
+      &:hover {
+        color: #0dab42;
+      }
+    }
+    &__verify {
+      width: 100%;
+      display: flex;
+      margin: 20px 0;
+      justify-content: space-between;
+      & > Button {
+        text-transform: none;
+        width: 88%;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        font-weight: bold;
+      }
+      &__shit {
+        width: 5%;
+        border-radius: 0px 5px 5px 0px;
+        background-color: $primary-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+@import "../../../../../assets/scss/global/global";
+.content-containerSt {
+  color: #404040;
+  width: 100%;
+  margin-top: 5%;
+  &__benefits-container {
+    .MuiTypography-h5 {
+      font-size: 20px;
+      font-family: Samsung Sharp Sans;
+      font-weight: bold;
+      line-height: 1.334;
+    }
+    &__wrapper {
+      display: flex;
+      margin-top: 3%;
+      justify-content: space-between;
+      &__benefits-details {
+        display: flex;
+        border-radius: 10px;
+        border-style: none;
+        width: 66%;
+        box-shadow: 0px 5px 21px rgba(0, 0, 0, 0.07);
+        &__content {
+          display: list-item;
+          align-items: center;
+          margin-left: 0%;
+          padding: 5px 25px;
+          margin-left: 6%;
+          .MuiTypography-body1 {
+            font-size: 1rem;
+            font-family: Samsung Sharp Sans;
+            font-weight: 400;
+            line-height: 28px;
+            margin-left: 20px;
+          }
+        }
+      }
+      &__other-info {
+        width: 30%;
+        border-radius: 10px;
+        border-style: none;
+        height: 300px;
+        box-shadow: 0px 5px 21px rgba(0, 0, 0, 0.07);
+        &__content-line {
+          display: flex;
+          align-items: center;
+          padding: 5px 10px;
+          margin-left: 13px;
+          //margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+.margin-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 3% 0;
+}
+
+.generalAlign {
+  margin-left: 20px;
+
+  & > p:first-child {
+    font-weight: bolder;
+    color: black;
+  }
+  & > p:last-child {
+    color: #7d7c7c;
+  }
+}
+
+.boxInfo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+}
+.overlay {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.overlay__inner {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.overlay__content {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spinner {
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-top-color: $primary-color;
+  animation: spin 1s infinite linear;
+  border-radius: 100%;
+  border-style: solid;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

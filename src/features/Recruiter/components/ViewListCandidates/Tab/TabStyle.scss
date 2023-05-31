@@ -1,0 +1,57 @@
+@import "../../../../../assets/scss/global/global";
+.tablist-container {
+  width: 100%;
+  margin-top: 5%;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    & > .un-active {
+      background-color: #fff;
+      color: $black-color;
+    }
+
+    & > .active {
+      // background-color: $primary-color;
+      // color: $white-color;
+      // &:hover {
+      //   background-color: rgb(9, 119, 46);
+      // }
+    }
+
+    & > p {
+      font-size: 20px;
+      font-family: "Samsung Sharp Sans";
+      cursor: pointer;
+      // font-weight: bolder;
+      // padding: 3px 20px;
+      // border-radius: 10px;
+      // font-size: 100%;
+      // width: 20%;
+      // text-transform: none;
+      // box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.25);
+    }
+  }
+  .animation_change {
+    border-radius: 8px;
+    margin-left: 24%;
+    margin-top: 0.5%;
+    background-color: #0dab42;
+    bottom: 0px;
+    z-index: 0;
+    height: 3px;
+    width: 186px;
+    transition: all 0.5s ease-in-out;
+  }
+  .animation_change2 {
+    border-radius: 8px;
+    margin-left: 63%;
+    margin-top: 0.5%;
+    background-color: #0dab42;
+    bottom: 0px;
+    z-index: 0;
+    height: 3px;
+    width: 166px;
+    transition: all 0.3s ease-in-out;
+  }
+}

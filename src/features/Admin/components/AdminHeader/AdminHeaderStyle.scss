@@ -1,0 +1,58 @@
+@import "../../../../assets/scss/global/global";
+.admin-header-root {
+  margin-top: 3%;
+  margin-left: 2%;
+  display: flex;
+  justify-content: space-between;
+  &__hello {
+    display: flex;
+    align-items: center;
+    & > img {
+      margin-left: 15px;
+    }
+  }
+}
+.buttonMain1 {
+  width: 250px;
+  margin-right: 25px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+
+  &__link {
+    color: $primary-color;
+    font-weight: bold;
+  }
+
+  &__notify {
+    margin-right: 25px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 1px solid #c3b5b52b;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__avatarMain {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 45px;
+    justify-content: space-around;
+    border: 1px solid #e2e2e2d6;
+    border-radius: 30px;
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+    &__avatar1 {
+      border: 1px solid $primary-color;
+      box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.1);
+      width: 30px;
+      height: 30px;
+    }
+  }
+}

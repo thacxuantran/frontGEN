@@ -1,0 +1,21 @@
+.root-main {
+    flex: 2;
+    width: 100%;
+    position: relative;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+.wrapperOutSide .MuiContainer-maxWidthLg {
+    max-width: 100%;
+}
+.wrapperOutSide {
+    max-width: 100% !important;
+}
+.hover-Class {
+    :hover {
+        opacity: 0.8;
+    }
+}

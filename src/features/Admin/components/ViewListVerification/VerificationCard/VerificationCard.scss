@@ -1,0 +1,49 @@
+@import "../../../../../assets/scss/global/global";
+.verification-card-container {
+  margin-bottom: 8%;
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px 0px #00000033;
+  &__image {
+    width: 20%;
+    margin: 25px;
+    .MuiAvatar-root {
+      border: 2px solid #0dab42;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      overflow: hidden;
+      position: relative;
+      font-size: 1.25rem;
+      align-items: center;
+      flex-shrink: 0;
+      font-family: Samsung Sharp Sans;
+      line-height: 1;
+      user-select: none;
+      border-radius: 50%;
+      justify-content: center;
+    }
+  }
+  &__detail {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    & > Button {
+      font-size: 1rem;
+      font-family: Samsung Sharp Sans;
+      font-weight: 600;
+      line-height: 1.6;
+      padding: 0;
+      justify-content: end;
+      text-transform: none;
+      text-align: left;
+    }
+    & > .MuiTypography-body2 {
+      font-size: 0.8rem;
+      font-weight: 400;
+      line-height: 1.43;
+    }
+  }
+}

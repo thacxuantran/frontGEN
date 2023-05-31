@@ -1,0 +1,37 @@
+@import "../../../../../assets/scss/global/global";
+.Overall {
+  margin-top: 5%;
+  &__header {
+    display: flex;
+    align-items: center;
+  }
+  hr {
+    margin-bottom: 20px;
+  }
+  &__body {
+    //display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // flex-direction: column;
+    font-family: Samsung Sharp Sans Regular !important;
+    &__description {
+      text-align: center;
+      width: 100%;
+    }
+    &__descImgMain {
+    }
+    &__descImgSub {
+      display: flex;
+      width: -webkit-fill-available;
+      justify-content: space-evenly;
+      &__descImgSub {
+        & > img {
+          width: 208px;
+          height: 208px;
+          border-radius: 50%;
+          background-size: cover;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+@import "../../../../src/assets/scss/global/global";
+@import "../../../../src/assets/scss/global/typography";
+@import "../../../../src/assets/scss/global/variables";
+
+.root {
+  margin-top: -550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__avatar1 img {
+    width: 170px;
+    height: 170px;
+    //background-image: url("../../../../src/assets/img/minami.jpg");
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid #0dab42;
+  }
+  & > h2 {
+    font-size: 1.5rem;
+    margin-top: 85px;
+    font-weight: bolder;
+  }
+
+  &__title {
+    color: #4f4545c7;
+    font-family: "Samsung Sharp Sans Regular";
+  }
+  &__img {
+    background-image: url("../../../../src/assets/img/sologan.png");
+    width: 350px;
+    height: 85px;
+    background-position: center;
+    position: absolute;
+    margin-top: 140px;
+    z-index: -1;
+    background-size: cover;
+  }
+  &__changepass {
+    margin-top: 15px;
+    color: #0dab42;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.ViewAccount_circle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: -200px;
+}
+.ViewAccount_circle2 {
+  width: 180px;
+  height: 180px;
+  margin-left: -70px;
+  margin-top: 400px;
+}

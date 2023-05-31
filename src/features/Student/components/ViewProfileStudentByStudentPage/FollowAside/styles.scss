@@ -1,0 +1,20 @@
+@import "../../../../../assets/scss/global/global";
+
+.root-suggest-follow{
+    background-color: #F5F5F5;
+    padding-bottom: 24px;
+    &__wrapper{
+        display:flex !important;
+        align-items: center;
+        justify-content: center;
+        padding: 20px !important;
+        &__follow{
+            color: #0DAB42;
+            font-size: 22px !important;
+            font-weight: bold !important;
+        }
+    }
+    &__wrapper-card{
+        padding: 0px !important;
+    }
+}

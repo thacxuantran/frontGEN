@@ -1,0 +1,74 @@
+@import "../../../../../assets/scss/global/global";
+.location_tittle {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.main-overview {
+  width: 100%;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.07);
+  margin-top: 5%;
+  height: 170px;
+  &__logo {
+    width: 16%;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 15px;
+  }
+  &__info {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 15px;
+
+    &__companyName:hover {
+      color: "#0DAB42";
+    }
+    .MuiTypography-body1 {
+      font-size: 1rem;
+      font-family: Samsung Sharp Sans Regular;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-top: 10px;
+      color: #404040;
+    }
+    .MuiTypography-h5 {
+      font-size: 1.5rem;
+      font-family: Samsung Sharp Sans;
+      font-weight: bold;
+      line-height: 1.334;
+      color: #404040;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__group-button {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 3%;
+    & > Button {
+      border: 1px solid $primary-color;
+      color: $primary-color;
+      background-color: white;
+      box-shadow: 0px 4px 21px rgba(255, 255, 255, 0.07);
+      margin-top: 20px;
+      text-transform: none;
+      padding: 5px 30px;
+      border-radius: 8px;
+    }
+    & > Button:hover {
+      color: white;
+      background-color: $primary-color;
+      box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.07);
+      margin-top: 20px;
+      text-transform: none;
+      padding: 5px 30px;
+      border-radius: 8px;
+    }
+  }
+}

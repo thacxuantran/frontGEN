@@ -1,0 +1,91 @@
+.recruiterLangdingPage_create_img {
+  width: 570px;
+  height: 570px;
+  margin-right: 100px;
+}
+.recruiterLangdingPage_search_img {
+  width: 474px;
+  height: 351px;
+  margin-left: 200px;
+}
+.recruiterLangdingPage_create_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.recruiterLangdingPage_search_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.recruiterLangdingPage_create {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  flex-direction: row;
+}
+.recruiterLangdingPage_search {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  flex-direction: row;
+}
+.recruiterLangdingPage_title_create {
+  margin-top: 40px;
+}
+.recruiterLangdingPage_main_create {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.recruiterLangdingPage_main_search {
+  margin-top: -150px;
+}
+// .circle {
+//   margin-left: 143px;
+//   margin-bottom: 216px;
+// }
+.recruiterLangdingPage_circle2 {
+  width: 180px;
+  height: 180px;
+  margin-left: -70px;
+}
+.recruiterLangdingPage_circle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: -200px;
+}
+.recruiterLangdingPage_main_manage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 140px;
+}
+.recruiterLangdingPage_manage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.recruiterLangdingPage_manage_img {
+  width: 1000px;
+  height: 219px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.recruiterLangdingPage_buttonMain1 {
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+
+  &__link {
+    color: white;
+    font-weight: bold;
+  }
+}

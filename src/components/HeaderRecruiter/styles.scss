@@ -1,0 +1,88 @@
+@import "../../assets/scss/global/global";
+
+.headerRecruiter {
+  &__mainItem {
+    width: 34%;
+    margin-left: 11%;
+    &__list-item {
+      display: flex;
+      justify-content: space-between;
+
+      & > li > img {
+        display: inline;
+        margin-right: 10px;
+      }
+
+      & > li {
+        display: flex;
+        cursor: pointer;
+      }
+      & > li:hover a:after {
+        width: 100%;
+        background-color: #0dab42;
+        left: 0;
+      }
+      & > li > a {
+        color: #404040;
+        font-weight: 800;
+        line-height: 24px;
+        position: relative;
+      }
+      & > li > a:after {
+        position: absolute;
+        content: "";
+        width: 0%;
+        height: 3px;
+        border-radius: 3px;
+        left: 50%;
+        background-color: #0dab42;
+        bottom: -10px;
+        transition: all 0.4s ease-in-out;
+      }
+    }
+  }
+  &__buttonMain {
+    width: 250px;
+    margin-right: 25px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+    &__link {
+      color: $primary-color;
+      font-weight: bold;
+    }
+
+    &__notify {
+      margin-right: 25px;
+      width: 40px;
+      height: 40px;
+      box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      border: 1px solid #c3b5b52b;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__avatarMain {
+      display: flex;
+      align-items: center;
+      width: 99px;
+      height: 50px;
+      justify-content: space-around;
+      border: 1px solid #e2e2e2d6;
+      border-radius: 30px;
+      box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+
+      &__avatar {
+        border: 1px solid $primary-color;
+        box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.1);
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+}

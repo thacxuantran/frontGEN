@@ -1,0 +1,41 @@
+
+.root-card-aside{
+
+    &__wrapper-body-follow{
+        padding: 0 !important;
+        &__upper{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            &__left{
+                &__title{
+                    font-family: Samsung Sharp Sans !important;
+                    font-style: normal !important;
+                    font-weight: bold !important;
+                    font-size: 20px !important;
+                    line-height: 23px !important;
+                    color: #000000;
+                    &__location{
+                        font-family: Samsung Sharp Sans Regular !important;
+                        font-style: normal !important;
+                        font-weight: normal !important;
+                        font-size: 15px !important;
+                        line-height: 15px !important;
+                    }
+                    &__job{
+                        font-family: Samsung Sharp Sans !important;
+                        font-style: normal !important;
+                        font-weight: bold !important;
+                        font-size: 16px !important;
+                        line-height: 18px !important;
+                        color: #0DAB42 !important;
+                        padding-top: 20px !important;
+                    }
+                }
+            }
+
+        }
+    }
+   
+}

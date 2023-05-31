@@ -1,0 +1,154 @@
+@import "../../../../assets/scss/global/global";
+@import "../../../../assets/scss/global/variables";
+
+.paperAuth {
+  position: relative;
+  width: 499.33px;
+  height: 457.72px;
+  left: 26.13px;
+  top: 26.28px;
+
+  background: $white-color;
+
+  box-shadow: 0px 28px 42px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    padding-top: 20px;
+    /* identical to box height */
+
+    color: $primary-color;
+  }
+  &__form {
+    width: 100%;
+
+    &__container {
+      margin: 11.64px 0;
+      display: flex;
+      justify-content: center;
+
+      &__textInput {
+        width: 80%;
+        height: auto;
+
+        & .MuiOutlinedInput-root {
+          background: $white-color;
+          box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+          border-radius: 10px;
+          height: 50px;
+
+          &:focus {
+            border-color: $primary-color;
+          }
+        }
+      }
+
+      &__btn {
+        @include buttonPrimary(81.56px, 34.12px, 207.9px, 298.72px);
+        margin-top: 27.22px;
+      }
+
+      &__signinGG {
+        width: 281px;
+        height: 41px;
+        display: flex;
+        justify-content: space-evenly;
+        background: $white-color;
+        box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+      }
+
+      &__canva::before {
+        content: "simply dummy";
+        color: $white-color;
+        top: 0;
+        left: 0;
+        border-top: 1px solid black;
+        margin-right: 7px;
+        margin-top: 7px;
+      }
+
+      &__canva {
+        width: 281px;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 23px 0px;
+      }
+      &__canva::after {
+        content: "simply dummy";
+        color: $white-color;
+        top: 0;
+        left: 0;
+        border-top: 1px solid black;
+        margin-left: 7px;
+        margin-top: 7px;
+      }
+    }
+  }
+  &__ellipse-png {
+    position: absolute;
+    width: 63.25px;
+    height: 63.25px;
+    left: -30px;
+    top: -30px;
+    z-index: 1;
+  }
+}
+
+.checkBoxContainer {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+  &__link {
+    line-height: 2.5rem;
+    font-weight: bolder;
+    font-size: 1.1rem;
+
+    text-decoration-line: underline;
+
+    color: $primary-color;
+  }
+}
+.containerAuth {
+  width: 100%;
+  height: 80vh;
+}
+
+.imageAuth {
+  width: 961px;
+  //height: '498px',
+  left: 125px;
+  top: 256px;
+}
+
+.center {
+  @include center();
+}
+
+.login {
+  padding-bottom: 250px;
+  position: relative;
+  margin-top: 5%;
+
+  &__img {
+    position: absolute;
+    top: -10px;
+    right: 0;
+  }
+}
+.checkBoxContainer label > .MuiTypography-body1 {
+  font-family: "Samsung Sharp Sans Regular" !important;
+  font-size: 14px;
+}
+.checkBoxContainer__link {
+  font-size: 14px !important;
+}

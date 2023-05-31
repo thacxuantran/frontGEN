@@ -1,0 +1,111 @@
+@import "../../../../../assets/scss/global/global";
+
+.root-card-aside {
+  background-color: #ffffff;
+  padding: 10px 10px 20px 10px !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 17px;
+  margin-bottom: 20px;
+  &__text {
+    padding: 0px !important;
+    color: $primary-color;
+    font-size: 14px !important;
+    font-family: Samsung Sharp Sans;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 15px !important;
+  }
+  &__wrapper-header {
+    padding: 0px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+  }
+  &__wrapper-body {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    &__upper {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      margin-bottom: 10px;
+      &__infor {
+        display: inline-block;
+        padding-left: 10px;
+        &__title {
+          font-weight: bold;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 16px;
+
+          &:hover {
+            color: $primary-color;
+            cursor: pointer;
+          }
+        }
+        &__text-info {
+          font-size: 13px;
+          font-family: Samsung Sharp Sans Regular;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 16px;
+          display: flex;
+          align-items: center;
+          &__number {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+          }
+
+          &__title {
+            &:hover {
+              color: $primary-color;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+    &__down {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      &__flex {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px !important;
+        &__text {
+          color: #000000;
+          font-family: Samsung Sharp Sans Regular !important;
+          font-style: normal !important;
+          font-weight: bold !important;
+          font-size: 13px !important;
+          line-height: 16px !important;
+        }
+      }
+    }
+    &__down-up {
+      padding-top: 10px;
+    }
+    &__footer {
+      margin-top: 10px;
+      text-align: center;
+      &__button {
+        width: 60% !important;
+        padding: 5px !important;
+        color: white !important;
+        background-color: $primary-color !important;
+        border-radius: 10px !important;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 19px;
+      }
+    }
+  }
+}

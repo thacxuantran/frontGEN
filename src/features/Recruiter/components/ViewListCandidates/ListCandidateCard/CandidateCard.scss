@@ -1,0 +1,99 @@
+@import "../../../../../assets/scss/global/global";
+.card-container {
+  margin-top: 10%;
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  &__info {
+    width: 90%;
+    display: flex;
+    &__image {
+      width: 48%;
+    }
+    &__image > div {
+      width: 55%;
+      height: 82px;
+      border: 1px solid $primary-color;
+      border-radius: 10px;
+      margin: 25% 15%;
+    }
+    &__detail {
+      width: 55%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: -5%;
+      .MuiTypography-body1 {
+        font-size: 14px;
+        font-family: Samsung Sharp Sans;
+        font-weight: 600;
+        line-height: 1.8;
+      }
+      &__location {
+        display: flex;
+        align-items: center;
+        img {
+          max-width: 10%;
+        }
+        .MuiTypography-body2 {
+          margin-left: 5px;
+          font-size: 13px;
+          line-height: 2.5;
+        }
+      }
+      .MuiTypography-h6 {
+        font-size: 1.25rem;
+        font-family: Samsung Sharp Sans;
+        font-weight: 600;
+        line-height: 1.6;
+      }
+      & > Button {
+        font-size: 1.15rem;
+        font-family: Samsung Sharp Sans;
+        font-weight: 600;
+        line-height: 1.6;
+        padding: 0;
+        justify-content: end;
+        text-transform: none;
+      }
+    }
+  }
+  &__approve {
+    width: 10%;
+    background-color: #a3eabb;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    img {
+      width: 20px;
+      margin: auto;
+    }
+  }
+  &__waiting {
+    width: 10%;
+    background-color: #f4f093;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    img {
+      width: 20px;
+      margin: auto;
+    }
+  }
+  &__reject {
+    width: 10%;
+    background-color: #ff8278;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    img {
+      width: 20px;
+      margin: auto;
+    }
+  }
+}

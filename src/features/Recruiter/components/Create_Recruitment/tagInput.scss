@@ -1,0 +1,32 @@
+.text_field > {
+background-color: white;
+}
+.text_field > .MuiFilledInput-root{
+    background-color:white;
+
+}
+.text_field >.MuiFilledInput-root:hover{
+    background-color:white;
+}
+
+.chip > .MuiChip-outlinedPrimary{
+   background-color:black;
+
+}
+.text_field > .MuiFilledInput-root.Mui-focused{
+    background-color:white;
+}
+
+.text_field > .MuiFilledInput-underline:before{
+    border-bottom: none;
+}
+.text_field > .MuiFilledInput-underline:after{
+    border-bottom: none;
+}
+.text_field > .MuiFilledInput-underline:hover:before{
+    border-bottom: none;
+}
+.text_field > .MuiFilledInput-underline:hover:after{
+    border-bottom: none;
+}
+

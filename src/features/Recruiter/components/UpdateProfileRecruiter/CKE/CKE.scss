@@ -1,0 +1,26 @@
+@import "../../../../../assets/scss/global/global";
+.root-overall {
+  .ckeditor {
+    width: 100%;
+    font-family: Samsung Sharp Sans Regular !important;
+    height: 100%;
+    display: inline-block;
+    text-align: left;
+    img {
+      top: unset !important;
+      left: unset !important;
+      right: unset !important;
+      left: unset !important;
+    }
+  }
+  // .ck.ck-editor__main > .ck-editor__editable {
+  //   padding: 0 33px !important;
+  // }
+  .ck-editor__editable_inline {
+    min-height: 500px;
+  }
+  .btn-wrapper {
+    margin-top: 3%;
+    text-align: center;
+  }
+}

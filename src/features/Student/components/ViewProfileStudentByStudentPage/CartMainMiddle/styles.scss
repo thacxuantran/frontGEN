@@ -1,0 +1,156 @@
+@import "../../../../../assets/scss/global/global";
+
+.root-card-main-aside {
+  // padding: 15px !important;
+  position: relative;
+  display: flex;
+  margin: 25px;
+  background: #ffffff;
+  border: 1px solid rgba(64, 64, 64, 0.24);
+  box-sizing: border-box;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  align-items: center;
+
+  &__wrapper-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  &__wrapper-body {
+    display: flex;
+    align-items: center;
+    flex: 2;
+    padding: 10px !important;
+
+    &__image {
+      width: 95px !important;
+      height: 95px !important;
+      margin-right: 15px;
+    }
+    &__down {
+      display: flex;
+      &__wrapper {
+        display: flex;
+        align-items: center;
+        padding: 10px 0px;
+        &__text {
+          font-family: Samsung Sharp Sans;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 15px;
+        }
+      }
+    }
+    &__footer {
+      padding: 10px 0px;
+      &__status {
+        font-family: Samsung Sharp Sans Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+      }
+      &__apply {
+        font-family: Samsung Sharp Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+        padding: 0 20px;
+
+        color: #0dab42;
+      }
+      &__date {
+        font-family: Samsung Sharp Sans Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 16px;
+
+        color: rgba(0, 0, 0, 0.36);
+      }
+    }
+    &__down-up {
+      display: flex;
+      align-items: center;
+      //padding: 10px 0px;
+      &__text {
+        font-family: Samsung Sharp Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 16px;
+        text-decoration-line: underline;
+
+        color: #0dab42;
+      }
+    }
+    &__title {
+      font-family: Samsung Sharp Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 21px;
+    }
+  }
+}
+.root-card-main-aside-2 {
+  height: 100%;
+  width: 20%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  min-height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.waiting {
+  background-color: #f4f093;
+}
+.reject {
+  background-color: #ff8278;
+}
+.approve {
+  background-color: #a3eabb;
+}
+.paginate-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  &__item {
+    background: #ffffff;
+    border: 1px solid rgba(64, 64, 64, 0.24);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 3px 8px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #0dab42;
+  }
+  &__item__active {
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #0dab42;
+    border-radius: 5px;
+    padding: 3px 10px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

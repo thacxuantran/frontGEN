@@ -1,0 +1,102 @@
+.form-root {
+  width: 80%;
+  input:focus {
+    outline: none !important;
+    box-shadow: 0 0 10px #719ece;
+    font-family: Samsung Sharp Sans Regular;
+    padding: 5px;
+  }
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    .checkbox-input {
+      font-family: Samsung Sharp Sans;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #404040;
+      align-items: center;
+      display: inline-flex;
+      padding: 10px;
+      > input {
+        margin-right: 10px;
+      }
+    }
+    .input-title {
+      font-family: Samsung Sharp Sans;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #404040;
+      margin-bottom: 8px;
+    }
+    .full-input {
+      background: #ffffff;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+      border-color: #ffffff;
+      height: 35px;
+      border: 0px;
+      font-family: Samsung Sharp Sans Regular;
+      padding: 5px;
+    }
+  }
+  .input-wrapper-two {
+    display: flex;
+    margin-bottom: 20px;
+
+    .wrapper-half {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      .input-title {
+        font-family: Samsung Sharp Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #404040;
+        margin-bottom: 8px;
+      }
+      .half-input {
+        background: #ffffff;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        border-color: #ffffff;
+        height: 35px;
+        border: 0px;
+        width: 100%;
+        font-family: Samsung Sharp Sans;
+        padding: 5px;
+      }
+    }
+    .left {
+      margin-left: 15px;
+    }
+    .right {
+      margin-right: 15px;
+    }
+  }
+
+  .wrap-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .btn-submit {
+      width: 81.56px;
+      height: 34.12px;
+      background: #0dab42;
+      border-radius: 10px;
+      font-family: Samsung Sharp Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+      border: unset !important;
+      color: #ffffff;
+    }
+  }
+}

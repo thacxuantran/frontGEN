@@ -1,0 +1,12 @@
+@import "../../../../../assets/scss/global/global";
+
+.img-avt {
+  width: 61px !important;
+  height: 61px !important;
+  background: #ffffff;
+}
+.img-avt > img {
+  width: 85%;
+  height: 85%;
+  border-radius: 50px;
+}

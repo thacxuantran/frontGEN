@@ -1,0 +1,76 @@
+@import "../../../../../assets/scss/global/global";
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  &__img {
+    width: 338px;
+    height: 218px;
+  }
+
+  &__name {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+    &__btn {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+
+      &__content {
+        display: flex;
+        text-decoration: none !important;
+        cursor: pointer;
+        background: $primary-color;
+        border-radius: 20px;
+        padding: 8px;
+        & .MuiButton-root {
+          text-transform: none !important;
+        }
+        &.MuiButton-text {
+          padding: 0px 5px;
+        }
+      }
+    }
+    &__verify {
+      display: flex;
+      justify-content: center;
+      &__contents {
+        display: flex;
+      }
+    }
+  }
+}
+
+.icon {
+  height: 30px;
+  width: 40px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__img {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+  }
+}
+
+.text {
+  margin-left: 2px !important;
+  padding-top: 2px !important;
+}
+.verifyicons {
+  margin-top: 4px !important;
+  margin-left: 15px !important;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5px;
+  text-decoration: none !important;
+}

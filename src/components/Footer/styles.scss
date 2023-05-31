@@ -1,0 +1,48 @@
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 1rem 0;
+  &hover {
+    color: #0dab42;
+  }
+}
+
+.ellipseParent {
+  position: relative;
+
+  & > img {
+    position: absolute;
+    top: 133px;
+    left: 46px;
+  }
+}
+.fixed-position {
+  bottom: 0;
+  width: 100%;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+.borderFooter {
+  border-top: 1px solid black !important;
+  padding-top: 10px;
+}
+
+.iconLargeFooter {
+  display: inline-block;
+  max-width: 100%;
+  position: absolute;
+  top: -55px;
+  right: 0;
+}
+
+.item > ul > li {
+  color: rgb(136, 132, 132);
+  font-weight: 100;
+  cursor: pointer;
+  &hover {
+    color: #0dab42;
+  }
+}

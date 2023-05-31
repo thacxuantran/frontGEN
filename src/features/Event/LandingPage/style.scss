@@ -1,0 +1,128 @@
+.event-root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.event-banner {
+  margin-top: 3%;
+}
+.each-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+.react-slideshow-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.react-slideshow-zoom-wrapper {
+  width: 100%;
+  overflow: hidden;
+  margin-left: -12%;
+  margin-right: -12%;
+}
+.react-slideshow-container .default-nav {
+  height: 20px;
+  background: rgba(255, 255, 255, 0.6);
+  width: 20px;
+  border: 0;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -4%;
+  z-index: 1;
+  &__searchEvent {
+    width: 65%;
+    min-height: 80px;
+    background: #ffffff;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    &__event {
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      & > p {
+        font-family: Samsung Sharp Sans Regular;
+        font-size: 14px;
+        color: #404040;
+      }
+    }
+    &__date {
+      & > div input {
+        font-family: Samsung Sharp Sans Regular;
+        font-size: 14px;
+        color: #404040;
+      }
+    }
+  }
+}
+.buttonEvent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+  &__buttonGroup {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    & > .MuiButton-root {
+      text-transform: none;
+    }
+    & > Button {
+      background: white;
+      min-width: 25%;
+      color: #0dab42;
+      border: 1px solid #0dab42;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+  }
+}
+.upcoming {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__upcomingEvent {
+    display: flex;
+    width: 65%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3%;
+    font-family: Samsung Sharp Sans;
+    color: #404040;
+    font-size: 20px;
+    & > span {
+      font-family: Samsung Sharp Sans;
+      color: #0dab42;
+      font-size: 45px;
+    }
+    &__main {
+      margin-top: 5%;
+    }
+    &__page {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+@import "../../../../../assets/scss/global/global";
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5%;
+  &__industry {
+    display: flex;
+    &__img {
+      display: flex;
+      align-items: center;
+      height: 30px;
+      width: 30px;
+    }
+    &__text {
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      background-color: #a3eabb;
+      border-radius: 20px;
+      margin-left: 10px;
+    }
+  }
+  &__mail {
+    display: flex;
+    &__img {
+      display: flex;
+      align-items: center;
+    }
+    &__text {
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+      background-color: #a3eabb;
+      border-radius: 20px;
+      margin-left: 10px;
+    }
+  }
+  &__cellphone {
+    display: flex;
+    &__img {
+      display: flex;
+      align-items: center;
+    }
+    &__text {
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+      background-color: #a3eabb;
+      border-radius: 20px;
+      margin-left: 10px;
+    }
+  }
+  &__size {
+    display: flex;
+    &__img {
+      display: flex;
+      align-items: center;
+    }
+    &__text {
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+      background-color: #a3eabb;
+      border-radius: 20px;
+      margin-left: 10px;
+    }
+  }
+}
